@@ -317,7 +317,9 @@ public class patterns {
     static void pattern22() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        
+        for (int i = 1; i <= ; i++) {
+            
+        }
     }
 
     public static void main(String[] args) {
