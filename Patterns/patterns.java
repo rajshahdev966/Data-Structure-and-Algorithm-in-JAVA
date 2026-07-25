@@ -329,7 +329,7 @@ public class patterns {
                 if (i == 1 || i == (2 * num) - 1 || j == 1 || j == (2 * num) - 1) {
                     System.out.print(num);
                 }
-                if (i == 2 || i == (2 * num) - 2 || j == 2 || j == (2 * num) - 2) {
+                if ((i == 2 || i == (2 * num) - 2) && (j == 2 || j == (2 * num) - 2)) {
                     System.out.print(num - 1);
                 }
                
