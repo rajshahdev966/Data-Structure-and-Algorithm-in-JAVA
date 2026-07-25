@@ -323,7 +323,7 @@ public class patterns {
 
     static void pattern22() {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
+        int num = 5;
         // for (int i = 1; i <= (2 * num) - 1; i++) {
         //     for (int j = 1; j <= (2 * num) - 1; j++) {
         //         if ((i == 1 || i == 5) || (j == 1 || j == 5)) {
@@ -339,7 +339,7 @@ public class patterns {
         //     System.out.println();
         // }
         for (int i = 1; i <= (2 * num) - 1; i++) {
-            for (int j = 0; j < (2 * num) - 1; j++) {
+            for (int j = 1; j <= (2 * num) - 1; j++) {
                 if ((i == 1 || i == 7) || (j == 1 || j == 7)) {
                     System.out.print(num);
                 }
