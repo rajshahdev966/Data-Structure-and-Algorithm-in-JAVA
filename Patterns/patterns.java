@@ -302,7 +302,23 @@ public class patterns {
     static void pattern21() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        
+        for (int i = 1; i <= num; i++) {
+            if(i == 1 || i == num){
+                for (int j = 1; j <= num; j++) {
+                    System.out.print("*");
+                }
+                return;
+            }
+            for (int k = 1; k < 10; k++) {
+                System.out.print("*");
+            }
+            for (int m = 0; m < 10; m++) {
+                
+            }
+            for (int n = 0; n < 10; n++) {
+                
+            }
+        }
 
     }
 
