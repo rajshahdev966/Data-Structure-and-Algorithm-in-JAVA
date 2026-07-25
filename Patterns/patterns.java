@@ -217,11 +217,12 @@ public class patterns {
                 System.out.print(chToPrint);
                 chToPrint++;
             }
-            for (int l = i; l >= 1; l--) {
+            for (int l = i - 1; l >= 1; l--) {
                 char chToPrint = 'A';
+                chToPrint += i - 1;
                 System.out.print(chToPrint);
-                chToPrint++;
             }
+            System.out.println();
         }
     }
 
@@ -241,8 +242,8 @@ public class patterns {
         // pattern13();
         // pattern14();
         // pattern15();
-        pattern16();
-        // pattern17();
+        // pattern16();
+        pattern17();
         // pattern18();
         // pattern19();
         // pattern20();
