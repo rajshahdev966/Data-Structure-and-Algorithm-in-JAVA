@@ -319,7 +319,7 @@ public class patterns {
         int num = sc.nextInt();
         for (int i = 1; i <= (2 * num) - 1; i++) {
             for (int j = 1; j <= (2 * num) - 1; j++) {
-                if()
+                if(i = )
             }
         }
     }
