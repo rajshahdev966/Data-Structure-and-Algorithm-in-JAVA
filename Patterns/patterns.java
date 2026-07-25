@@ -271,8 +271,31 @@ public class patterns {
     static void pattern20() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        for (int i = 0; i < 10; i++) {
-            
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= i; j++){
+                System.out.print("*");                
+            }
+            for (int k = 1; k <= 2 * (num - i); k++) {
+                System.out.print(" ");
+                
+            }
+            for (int m = 1; m <= i ; m++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = num - 1; i >= 1; i--) {
+            for (int j = 1; j <= i; j++){
+                System.out.print("*");                
+            }
+            for (int k = 1; k <= 2 * (num - i); k++) {
+                System.out.print(" ");
+                
+            }
+            for (int m = 1; m <= i ; m++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
 
     }
@@ -296,7 +319,7 @@ public class patterns {
         // pattern16();
         // pattern17();
         // pattern18();
-        pattern19();
-        // pattern20();
+        // pattern19();
+        pattern20();
     }
 }
