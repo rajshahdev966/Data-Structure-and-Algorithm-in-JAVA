@@ -117,34 +117,14 @@ public class patterns {
         int num = sc.nextInt();
         boolean flag;
         for (int i = 1; i <= num; i++) {
-            if(i%2 == 0){
-                flag = false;
-                for (int j = 1; j <= i; j++) {
-                if(flag){
-                    System.out.print("1");
-                    
-
-                }else{
-                    System.out.print("0");
-                    
-                }
+            flag = !(i%2 == 0);
+            for (int j = 1; j <= i; j++) {
+                System.out.print(flag ? 1 : 0);
                 flag = !flag;
             }
-            }else{
-                flag = true;
-                for (int j = 1; j <= i; j++) {
-                if(flag){
-                    System.out.print("1");
-                    
-
-                }else{
-                    System.out.print("0");
-                    
-                }
-                flag = !flag;
-            }
-        }
+            System.out.println();
     }
+}
     
     public static void main(String[] args) {
         // pattern1();
