@@ -2,9 +2,9 @@
 import java.util.Scanner;
 
 // package Patterns;
-
 public class patterns {
-    static void pattern1(){
+
+    static void pattern1() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
@@ -14,7 +14,8 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern2(){
+
+    static void pattern2() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
@@ -24,7 +25,8 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern3(){
+
+    static void pattern3() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
@@ -34,7 +36,8 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern4(){
+
+    static void pattern4() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
@@ -44,7 +47,8 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern5(){
+
+    static void pattern5() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = num; i >= 1; i--) {
@@ -54,7 +58,8 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern6(){
+
+    static void pattern6() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = num; i >= 1; i--) {
@@ -64,43 +69,47 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern7(){
+
+    static void pattern7() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
             for (int j = 1; j <= num - i; j++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= ((2 * i) - 1); k ++) {
+            for (int k = 1; k <= ((2 * i) - 1); k++) {
                 System.out.print("*");
             }
 
             System.out.println();
         }
     }
-    static void pattern8(){
+
+    static void pattern8() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = num; i >= 1; i--) {
             for (int j = 1; j <= num - i; j++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= ((2 * i) - 1); k ++) {
+            for (int k = 1; k <= ((2 * i) - 1); k++) {
                 System.out.print("*");
             }
 
             System.out.println();
         }
     }
-    static void pattern9(){
+
+    static void pattern9() {
         pattern7();
         pattern8();
     }
-    static void pattern10(){
+
+    static void pattern10() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
-            for(int j = 1; j<= i; j++){
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -112,32 +121,39 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern11(){
+
+    static void pattern11() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         boolean flag;
         for (int i = 1; i <= num; i++) {
-            flag = !(i%2 == 0);
+            flag = !(i % 2 == 0);
             for (int j = 1; j <= i; j++) {
                 System.out.print(flag ? 1 : 0);
                 flag = !flag;
             }
             System.out.println();
+        }
     }
-    static void pattern12(){
+
+    static void pattern12() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        boolean flag;
         for (int i = 1; i <= num; i++) {
-            flag = !(i%2 == 0);
             for (int j = 1; j <= i; j++) {
-                System.out.print(flag ? 1 : 0);
-                flag = !flag;
+                System.out.print(j);
+            }
+            for (int k = 1; k <= 2 * (num - i); k++) {
+                System.out.print(" ");
+
+            }
+            for (int l = i; l >= 1; l--) {
+                System.out.print(l);
             }
             System.out.println();
+        }
     }
-}
-    
+
     public static void main(String[] args) {
         // pattern1();
         // pattern2();
@@ -149,6 +165,15 @@ public class patterns {
         // pattern8();
         // pattern9();
         // pattern10();
-        pattern11();
+        // pattern11();
+        pattern12();
+        // pattern13();
+        // pattern14();
+        // pattern15();
+        // pattern16();
+        // pattern17();
+        // pattern18();
+        // pattern19();
+        // pattern20();
     }
 }
