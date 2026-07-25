@@ -54,7 +54,7 @@ public class patterns {
             System.out.println();
         }
     }
-    static void pattern5(){
+    static void pattern6(){
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = num; i >= 1; i--) {
