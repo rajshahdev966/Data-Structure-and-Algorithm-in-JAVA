@@ -307,17 +307,17 @@ public class patterns {
                 for (int j = 1; j <= num; j++) {
                     System.out.print("*");
                 }
-                return;
+            }else{
+                for (int k = 1; k <= num; k++) {
+                if(k == 1 || k == num){
+                    System.out.print("*");
+                    return;
+                }
+                System.out.print(" ");
             }
-            for (int k = 1; k < 10; k++) {
-                System.out.print("*");
             }
-            for (int m = 0; m < 10; m++) {
-                
-            }
-            for (int n = 0; n < 10; n++) {
-                
-            }
+            
+            
         }
 
     }
@@ -342,6 +342,8 @@ public class patterns {
         // pattern17();
         // pattern18();
         // pattern19();
-        pattern20();
+        // pattern20();
+        pattern21();
+        // pattern22();
     }
 }
