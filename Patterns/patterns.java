@@ -303,16 +303,13 @@ public class patterns {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
-            if(i == 1 || i == num){
-                for (int j = 1; j <= num; j++) {
+            for (int j = 1; j <= num; j++) {
+                if(i == 1 || i == num || j == 1 || j == num){
                     System.out.print("*");
-                }
-            }else{
-                for (int k = 1; k <= num; k++) {
-                    System.out.print((k == 1 || k == num) ? "*" : " ");
+                }else{
+                    System.out.print(" ");
                 }
             }
-            if(i == 1 || i == num || j == 1 || j == )
             
             System.out.println();
         }
