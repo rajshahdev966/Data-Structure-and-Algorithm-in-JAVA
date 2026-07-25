@@ -311,13 +311,15 @@ public class patterns {
                 for (int k = 1; k <= num; k++) {
                 if(k == 1 || k == num){
                     System.out.print("*");
-                    return;
+                }else{
+
+                    System.out.print(" ");
                 }
-                System.out.print(" ");
+                System.out.println();
             }
             }
             
-            
+            System.out.println();
         }
 
     }
