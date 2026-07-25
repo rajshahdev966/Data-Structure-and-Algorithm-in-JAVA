@@ -170,9 +170,8 @@ public class patterns {
         int num = sc.nextInt();
         char chToPrint = 'A';
         for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print((char) );
-                numToPrint++;
+            for (int j = 0; j < i; j++) {
+                System.out.print((char) chToPrint + j);
             }
             System.out.println();
         }
@@ -191,8 +190,8 @@ public class patterns {
         // pattern10();
         // pattern11();
         // pattern12();
-        pattern13();
-        // pattern14();
+        // pattern13();
+        pattern14();
         // pattern15();
         // pattern16();
         // pattern17();
