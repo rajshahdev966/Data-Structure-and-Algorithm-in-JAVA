@@ -335,9 +335,6 @@ public class patterns {
                 else if ((i == 3 || i == 3) || (j == 3 || j == 3)) {
                     System.out.print("1 ");
                 }
-                
-               
-
             }
             System.out.println();
         }
