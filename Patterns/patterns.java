@@ -217,7 +217,7 @@ public class patterns {
                 System.out.print(chToPrint);
                 chToPrint++;
             }
-            for (int l = 1; l <= (((2* i)-1)/2) + 1; l++) {
+            for (int l = i; l >= 1; l--) {
                 char chToPrint = 'A';
                 System.out.print(chToPrint);
                 chToPrint++;
