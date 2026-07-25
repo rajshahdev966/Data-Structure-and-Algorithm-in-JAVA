@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 // package Patterns;
@@ -315,29 +314,45 @@ public class patterns {
         }
 
     }
+    static void pattern22() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = 1; i <= (2 * num) - 1; i++) {
+            for (int j = 1; j <= num; j++) {
+                if(i == 1 || i == num || j == 1 || j == num){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            
+            System.out.println();
+        }
+
+    }
 
     public static void main(String[] args) {
-        pattern1();
-        pattern2();
-        pattern3();
-        pattern4();
-        pattern5();
-        pattern6();
-        pattern7();
-        pattern8();
-        pattern9();
-        pattern10();
-        pattern11();
-        pattern12();
-        pattern13();
-        pattern14();
-        pattern15();
-        pattern16();
-        pattern17();
-        pattern18();
-        pattern19();
-        pattern20();
-        pattern21();
+        // pattern1();
+        // pattern2();
+        // pattern3();
+        // pattern4();
+        // pattern5();
+        // pattern6();
+        // pattern7();
+        // pattern8();
+        // pattern9();
+        // pattern10();
+        // pattern11();
+        // pattern12();
+        // pattern13();
+        // pattern14();
+        // pattern15();
+        // pattern16();
+        // pattern17();
+        // pattern18();
+        // pattern19();
+        // pattern20();
+        // pattern21();
         // pattern22();
     }
 }
