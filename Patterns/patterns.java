@@ -112,6 +112,11 @@ public class patterns {
             System.out.println();
         }
     }
+    static void pattern11(){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        
+    }
     
     public static void main(String[] args) {
         // pattern1();
