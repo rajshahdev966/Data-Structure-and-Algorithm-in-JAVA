@@ -309,14 +309,8 @@ public class patterns {
                 }
             }else{
                 for (int k = 1; k <= num; k++) {
-                if(k == 1 || k == num){
-                    System.out.print("*");
-                }else{
-
-                    System.out.print(" ");
+                    System.out.print((k == 1 || k == num) ? "*" : " ");
                 }
-                System.out.println();
-            }
             }
             
             System.out.println();
