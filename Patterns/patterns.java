@@ -153,6 +153,7 @@ public class patterns {
             System.out.println();
         }
     }
+
     static void pattern13() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -165,6 +166,7 @@ public class patterns {
             System.out.println();
         }
     }
+
     static void pattern14() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -177,6 +179,7 @@ public class patterns {
             System.out.println();
         }
     }
+
     static void pattern15() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -189,6 +192,7 @@ public class patterns {
             System.out.println();
         }
     }
+
     static void pattern16() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -199,8 +203,20 @@ public class patterns {
             }
             chToPrint++;
             System.out.println();
+        }
     }
-}
+    static void pattern17() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        char chToPrint = 'A';
+        for (int i = 1; i <= num; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print(chToPrint);
+            }
+            chToPrint++;
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         // pattern1();
