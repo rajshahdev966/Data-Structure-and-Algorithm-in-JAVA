@@ -329,7 +329,7 @@ import java.util.Scanner;
             for (int i = 1; i <= (2 * num) - 1; i++) {
                 for (int j = 1; j <= (2 * num) - 1; j++) {
                     for (int k = 1; k <= (2 * num) - 1; k++) {
-                        if ((i == k || i == (2 * num) - k) || (j == 1 || j == 9)) {
+                        if ((i == k || i == (2 * num) - k) || (j == k || j == (2 * num) - k)) {
                             System.out.print(num - k + 1 + " ");
                         }
                     }
