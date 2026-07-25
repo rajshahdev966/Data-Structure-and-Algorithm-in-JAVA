@@ -245,11 +245,9 @@ public class patterns {
         for (int i = num; i >= 1; i--) {
             for (int j = 0; j < i; j++) {
                 System.out.print("*");
-
             }
-            for (int k = 0; k < i; k++) {
-                
-            }
+            for(int k = 0; k< )
+            System.out.println();
         }
     }
 
@@ -271,8 +269,8 @@ public class patterns {
         // pattern15();
         // pattern16();
         // pattern17();
-        pattern18();
-        // pattern19();
+        // pattern18();
+        pattern19();
         // pattern20();
     }
 }
