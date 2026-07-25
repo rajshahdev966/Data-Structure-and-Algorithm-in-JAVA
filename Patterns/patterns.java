@@ -239,6 +239,19 @@ public class patterns {
             System.out.println();
         }
     }
+    static void pattern19() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = 1; i <= num; i++) {
+            char chToPrint = 'A';
+            chToPrint += num - i;
+            for (int j = 1; j <= i; j++) {
+                System.out.print(chToPrint);
+                chToPrint++;
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         // pattern1();
