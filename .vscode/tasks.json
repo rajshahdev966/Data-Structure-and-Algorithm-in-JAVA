@@ -4,27 +4,23 @@
         {
             "label": "Run Java",
             "type": "shell",
-            "command": "javac",
+            "command": "cmd.exe",
             "args": [
-                "${file}",
-                "&&",
-                "java",
-                "${fileBasenameNoExtension}",
-                "<",
-                "input.txt",
-                ">",
-                "output.txt"
+                "/c",
+                "javac \"${file}\" && java \"${fileBasenameNoExtension}\" < input.txt > output.txt"
             ],
             "options": {
-                "cwd": "${fileDirname}",
-                "shell": {
-                    "executable": "C:\\Windows\\System32\\cmd.exe"
-                }
+                "cwd": "${fileDirname}"
             },
             "presentation": {
-                "reveal": "always"
+                "reveal": "always",
+                "panel": "shared"
             },
-            "problemMatcher": "$javac"
+            "problemMatcher": "$javac",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
