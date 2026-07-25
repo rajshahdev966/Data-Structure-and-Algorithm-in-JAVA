@@ -92,6 +92,27 @@ public class patterns {
             System.out.println();
         }
     }
+    static void pattern9(){
+        pattern7();
+        pattern8();
+    }
+    static void pattern10(){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = 1; i <= num; i++) {
+            for(int j = 1; j<= i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        for (int i = num - 1; i >= 1; i--) {
+            for (int j = i; j >= 1; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    
     public static void main(String[] args) {
         // pattern1();
         // pattern2();
@@ -100,6 +121,8 @@ public class patterns {
         // pattern5();
         // pattern6();
         // pattern7();
-        pattern8();
+        // pattern8();
+        // pattern9();
+        pattern10();
     }
 }
