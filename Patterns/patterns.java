@@ -117,18 +117,9 @@ public class patterns {
         int num = sc.nextInt();
         boolean flag = true;
         for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <= i; j++) {
-                if(flag){
-                    System.out.print("1");
-                    
-
-                }else{
-                    System.out.print("0");
-                    
-                }
-                flag = !flag;
+            if(i%2 == 0){
+                
             }
-            System.out.println();
         }
     }
     
