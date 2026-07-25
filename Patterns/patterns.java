@@ -317,8 +317,10 @@ public class patterns {
     static void pattern22() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        for (int i = 1; i <= ; i++) {
-            
+        for (int i = 1; i <= (2 * num) - 1; i++) {
+            for (int j = 1; j <= (2 * num) - 1; j++) {
+                if()
+            }
         }
     }
 
