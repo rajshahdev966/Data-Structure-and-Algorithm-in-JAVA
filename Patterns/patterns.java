@@ -326,7 +326,7 @@ public class patterns {
         int num = sc.nextInt();
         for (int i = 1; i <= (2 * num) - 1; i++) {
             for (int j = 1; j <= (2 * num) - 1; j++) {
-                if ((i >= 1 && i <= 5) && (j >= 1 && j <= 5)) {
+                if ((i = 1 || i = 5) && (j = 1 || j= 5)) {
                     System.out.print("3 ");
                 }
                 if ((i >= 2 && i <= 4) && (j >= 2 && i <= 4)) {
