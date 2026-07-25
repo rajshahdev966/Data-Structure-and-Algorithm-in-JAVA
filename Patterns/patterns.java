@@ -212,17 +212,13 @@ public class patterns {
             for (int j = 1; j <= num - i; j++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= (((2* i)-1)/2) + 1; k++) {
-                char chToPrint = 'A';
+            char chToPrint = 'A';
+            for (int k = 1; k <= (2* i)-1; k++) {
+                if()
                 System.out.print(chToPrint);
                 chToPrint++;
             }
-            for (int l = i - 1; l >= 1; l--) {
-                char chToPrint = 'A';
-                chToPrint += i - 1;
-                System.out.print(chToPrint);
-            }
-            System.out.println();
+            
         }
     }
 
