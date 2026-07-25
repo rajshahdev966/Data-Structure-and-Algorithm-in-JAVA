@@ -214,14 +214,13 @@ public class patterns {
             }
             char chToPrint = 'A';
             for (int k = 1; k <= (2* i)-1; k++) {
-                if(k <= i){
+                if(k < i){
                     System.out.print(chToPrint);
                     chToPrint++;
                 }else{
-                    --chToPrint;
                     System.out.print(chToPrint);
-                }
-                
+                    chToPrint--;
+                }   
             }
             System.out.println();
             
