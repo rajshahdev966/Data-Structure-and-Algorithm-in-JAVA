@@ -177,6 +177,18 @@ public class patterns {
             System.out.println();
         }
     }
+    static void pattern15() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = num; i >= 1; i--) {
+            char chToPrint = 'A';
+            for (int j = i; j >= 1; j--) {
+                System.out.print(chToPrint);
+                chToPrint++;
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         // pattern1();
@@ -192,8 +204,8 @@ public class patterns {
         // pattern11();
         // pattern12();
         // pattern13();
-        pattern14();
-        // pattern15();
+        // pattern14();
+        pattern15();
         // pattern16();
         // pattern17();
         // pattern18();
