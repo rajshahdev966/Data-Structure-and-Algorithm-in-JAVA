@@ -153,6 +153,18 @@ public class patterns {
             System.out.println();
         }
     }
+    static void pattern13() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        int numToPrint = 1;
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(numToPrint + " ");
+                numToPrint++;
+            }
+            System.out.println();
+        }
+    }
 
     public static void main(String[] args) {
         // pattern1();
@@ -166,8 +178,8 @@ public class patterns {
         // pattern9();
         // pattern10();
         // pattern11();
-        pattern12();
-        // pattern13();
+        // pattern12();
+        pattern13();
         // pattern14();
         // pattern15();
         // pattern16();
