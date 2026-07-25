@@ -327,13 +327,13 @@ public class patterns {
         for (int i = 1; i <= (2 * num) - 1; i++) {
             for (int j = 1; j <= (2 * num) - 1; j++) {
                 if ((i >= 1 && i <= 5) && (j >= 1 && j <= 5)) {
-                    System.out.print("3");
+                    System.out.print("3 ");
                 }
                 if ((i >= 2 && i <= 4) && (j >= 2 && i <= 4)) {
-                    System.out.print("\b2");
+                    System.out.print("\r2 ");
                 }
                 if ((i >= 3 && i <= 3) && (j >= 3 && i <= 3)) {
-                    System.out.print("\b\b1");
+                    System.out.print("\r1 ");
                 }
                
 
