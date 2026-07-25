@@ -1,4 +1,3 @@
-import java.lang.String;
 import java.util.Scanner;
 
 public class allLoopsQues {
@@ -440,8 +439,8 @@ public class allLoopsQues {
     //checkNeon();
     //checkISBN();
     //printWeekDays();
-    //checkVowel();
-    areaCalc();
+    checkVowel();
+    // areaCalc();
 
 
 
