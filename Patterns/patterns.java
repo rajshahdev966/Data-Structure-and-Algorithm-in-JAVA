@@ -313,6 +313,7 @@ public class patterns {
                 }
             }
             
+            
             System.out.println();
         }
 
