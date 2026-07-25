@@ -329,10 +329,10 @@ public class patterns {
                 if ((i == 1 || i == 5) || (j == 1 || j == 5)) {
                     System.out.print("3 ");
                 }
-                if ((i == 2 || i == 4) || (j == 2 || j == 4)) {
+                else if ((i == 2 || i == 4) || (j == 2 || j == 4)) {
                     System.out.print("2 ");
                 }
-                if ((i == 3 || i == 3) || (j == 3 || j == 3)) {
+                else if ((i == 3 || i == 3) || (j == 3 || j == 3)) {
                     System.out.print("1 ");
                 }
                 
