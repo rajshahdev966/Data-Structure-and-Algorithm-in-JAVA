@@ -319,10 +319,11 @@ public class patterns {
         int num = sc.nextInt();
         for (int i = 1; i <= (2 * num) - 1; i++) {
             for (int j = 1; j <= (2 * num) - 1; j++) {
-                if(i == 1 || ){
-
-                } 
+                if(i == 1 || i == (2 * num) - 1 || j == 1 || j == (2 * num) - 1){
+                    System.out.print(num);
+                }
             }
+            System.out.println();
         }
     }
 
@@ -348,6 +349,6 @@ public class patterns {
         // pattern19();
         // pattern20();
         // pattern21();
-        // pattern22();
+        pattern22();
     }
 }
