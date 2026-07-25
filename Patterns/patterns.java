@@ -230,10 +230,12 @@ public class patterns {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         char chToPrint = 'A';
-        for (int i = chToPrint + num - 1; i >= 1; i--) {
-            for (int j = 1; j <= chToPrint ; j++) {
-                
+        for (int i = 1; i <= num; i--) {
+            
+            for (int j = 1; j <= num; j++) {
+                System.out.print(chToPrint);
             }
+            System.out.println();
         }
     }
 
@@ -254,8 +256,8 @@ public class patterns {
         // pattern14();
         // pattern15();
         // pattern16();
-        pattern17();
-        // pattern18();
+        // pattern17();
+        pattern18();
         // pattern19();
         // pattern20();
     }
