@@ -346,7 +346,7 @@ public class patterns {
                 else if ((i == 2 || i == 6) || (j == 2 || j == 6)) {
                     System.out.print(num-1);
                 }
-                else if ((i == 3 || i == 5) || (j == 3 || j == 58)) {
+                else if ((i == 3 || i == 5) || (j == 3 || j == 5)) {
                     System.out.print(num-2);
                 }
                 else if ((i == 4 || i == 4) || (j == 4 || j == 4)) {
