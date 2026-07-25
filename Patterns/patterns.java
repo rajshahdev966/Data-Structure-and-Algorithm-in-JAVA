@@ -171,8 +171,8 @@ public class patterns {
         for (int i = 1; i <= num; i++) {
             char chToPrint = 'A';
             for (int j = 0; j < i; j++) {
-                chToPrint += j;
                 System.out.print(chToPrint);
+                chToPrint++;
             }
             System.out.println();
         }
