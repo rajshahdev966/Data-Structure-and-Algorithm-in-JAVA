@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 // package Patterns;
@@ -204,6 +205,7 @@ public class patterns {
             System.out.println();
         }
     }
+
     static void pattern17() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -212,19 +214,20 @@ public class patterns {
                 System.out.print(" ");
             }
             char chToPrint = 'A';
-            for (int k = 1; k <= (2* i)-1; k++) {
-                if(k < i){
+            for (int k = 1; k <= (2 * i) - 1; k++) {
+                if (k < i) {
                     System.out.print(chToPrint);
                     chToPrint++;
-                }else{
+                } else {
                     System.out.print(chToPrint);
                     chToPrint--;
-                }   
+                }
             }
             System.out.println();
-            
+
         }
     }
+
     static void pattern18() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -238,6 +241,7 @@ public class patterns {
             System.out.println();
         }
     }
+
     static void pattern19() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
@@ -245,7 +249,7 @@ public class patterns {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            for(int k = 1; k<= 2 * (num - i); k++ ){
+            for (int k = 1; k <= 2 * (num - i); k++) {
                 System.out.print(" ");
             }
             for (int m = 1; m <= i; m++) {
@@ -257,7 +261,7 @@ public class patterns {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            for(int k = 1; k<= 2 * (num - i); k++ ){
+            for (int k = 1; k <= 2 * (num - i); k++) {
                 System.out.print(" ");
             }
             for (int m = 1; m <= i; m++) {
@@ -267,61 +271,69 @@ public class patterns {
         }
 
     }
+
     static void pattern20() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <= i; j++){
-                System.out.print("*");                
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
             for (int k = 1; k <= 2 * (num - i); k++) {
                 System.out.print(" ");
-                
+
             }
-            for (int m = 1; m <= i ; m++) {
+            for (int m = 1; m <= i; m++) {
                 System.out.print("*");
             }
             System.out.println();
         }
         for (int i = num - 1; i >= 1; i--) {
-            for (int j = 1; j <= i; j++){
-                System.out.print("*");                
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
             }
             for (int k = 1; k <= 2 * (num - i); k++) {
                 System.out.print(" ");
-                
+
             }
-            for (int m = 1; m <= i ; m++) {
+            for (int m = 1; m <= i; m++) {
                 System.out.print("*");
             }
             System.out.println();
         }
 
     }
+
     static void pattern21() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= num; i++) {
             for (int j = 1; j <= num; j++) {
-                if(i == 1 || i == num || j == 1 || j == num){
+                if (i == 1 || i == num || j == 1 || j == num) {
                     System.out.print("*");
-                }else{
+                } else {
                     System.out.print(" ");
                 }
             }
-            
+
             System.out.println();
         }
 
     }
+
     static void pattern22() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         for (int i = 1; i <= (2 * num) - 1; i++) {
             for (int j = 1; j <= (2 * num) - 1; j++) {
-                if(i == 1 || i == (2 * num) - 1 || j == 1 || j == (2 * num) - 1){
+                if (i == 1 || i == (2 * num) - 1 || j == 1 || j == (2 * num) - 1) {
                     System.out.print(num);
                 }
+                if (i == 2 || i == (2 * num) - 2 || j == 2 || j == (2 * num) - 2) {
+                    System.out.print(num - 1);
+                }
+               
+
             }
             System.out.println();
         }
