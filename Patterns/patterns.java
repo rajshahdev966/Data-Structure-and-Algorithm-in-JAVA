@@ -231,7 +231,7 @@ public class patterns {
         int num = sc.nextInt();
         char chToPrint = 'A';
         for (int i = 1; i <= num; i++) {
-            
+            chToPrint = chToPrint + num - i;
             for (int j = 1; j <= i; j++) {
                 
             }
