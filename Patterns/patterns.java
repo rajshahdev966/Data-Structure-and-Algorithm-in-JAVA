@@ -312,7 +312,7 @@ public class patterns {
                     System.out.print((k == 1 || k == num) ? "*" : " ");
                 }
             }
-            
+            if(i == 1 || i == num || j == 1 || j == )
             
             System.out.println();
         }
