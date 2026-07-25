@@ -99,6 +99,7 @@ public class patterns {
         // pattern4();
         // pattern5();
         // pattern6();
-        pattern7();
+        // pattern7();
+        pattern8();
     }
 }
