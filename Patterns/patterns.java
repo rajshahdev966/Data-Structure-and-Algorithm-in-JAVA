@@ -268,6 +268,14 @@ public class patterns {
         }
 
     }
+    static void pattern20() {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = 0; i < 10; i++) {
+            
+        }
+
+    }
 
     public static void main(String[] args) {
         // pattern1();
