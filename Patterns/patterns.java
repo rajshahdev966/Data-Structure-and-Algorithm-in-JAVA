@@ -340,15 +340,19 @@ public class patterns {
         // }
         for (int i = 1; i <= (2 * num) - 1; i++) {
             for (int j = 0; j < (2 * num) - 1; j++) {
-                if ((i == 1 || i == 5) || (j == 1 || j == 5)) {
-                    System.out.print("3 ");
+                if ((i == 1 || i == 7) || (j == 1 || j == 7)) {
+                    System.out.print();
                 }
-                else if ((i == 2 || i == 4) || (j == 2 || j == 4)) {
+                else if ((i == 2 || i == 6) || (j == 2 || j == 6)) {
                     System.out.print("2 ");
                 }
-                else if ((i == 3 || i == 3) || (j == 3 || j == 3)) {
+                else if ((i == 3 || i == 5) || (j == 3 || j == 58)) {
                     System.out.print("1 ");
                 }
+                else if ((i == 4 || i == 4) || (j == 4 || j == 4)) {
+                    System.out.print("1 ");
+                }
+                
             }
             System.out.println();
         }
