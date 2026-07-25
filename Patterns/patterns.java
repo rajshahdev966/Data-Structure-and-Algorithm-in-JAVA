@@ -115,7 +115,21 @@ public class patterns {
     static void pattern11(){
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        
+        boolean flag = true;
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= i; j++) {
+                if(flag){
+                    System.out.print("1");
+                    
+
+                }else{
+                    System.out.print("0");
+                    
+                }
+                flag = !flag;
+            }
+            System.out.println();
+        }
     }
     
     public static void main(String[] args) {
@@ -128,6 +142,7 @@ public class patterns {
         // pattern7();
         // pattern8();
         // pattern9();
-        pattern10();
+        // pattern10();
+        pattern11();
     }
 }
