@@ -208,13 +208,20 @@ public class patterns {
     static void pattern17() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        char chToPrint = 'A';
         for (int i = 1; i <= num; i++) {
-            for (int j = 0; j < i; j++) {
-                System.out.print(chToPrint);
+            for (int j = 1; j <= num - i; j++) {
+                System.out.print(" ");
             }
-            chToPrint++;
-            System.out.println();
+            for (int k = 1; k <= (((2* i)-1)/2) + 1; k++) {
+                char chToPrint = 'A';
+                System.out.print(chToPrint);
+                chToPrint++;
+            }
+            for (int l = 1; l <= (((2* i)-1)/2) + 1; l++) {
+                char chToPrint = 'A';
+                System.out.print(chToPrint);
+                chToPrint++;
+            }
         }
     }
 
