@@ -230,9 +230,8 @@ public class patterns {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         char chToPrint = 'A';
-        for (int i = 1; i <= num; i++) {
-            chToPrint = chToPrint + num - i;
-            for (int j = 1; j <= i; j++) {
+        for (int i = chToPrint + num - 1; i >= 1; i--) {
+            for (int j = 1; j <= chToPrint ; j++) {
                 
             }
         }
