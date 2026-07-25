@@ -365,7 +365,6 @@ import java.util.Scanner;
                     for (int k = 1; k <= num; k++) {
                         if ((i == k || i == (2 * num) - k) || (j == 1 || j == (2 * num) - k)) {
                             System.out.print(num - k + 1 + " ");
-                            break;
                         }
                     }
                 }
