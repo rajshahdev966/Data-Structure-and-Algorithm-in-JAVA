@@ -44,10 +44,31 @@ public class patterns {
             System.out.println();
         }
     }
+    static void pattern5(){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = num; i >= 1; i--) {
+            for (int j = i; j >= 1; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern5(){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        for (int i = num; i >= 1; i--) {
+            for (int j = i; j >= 1; j--) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         // pattern1();
         // pattern2();
         // pattern3();
-        pattern4();
+        // pattern4();
+        pattern5();
     }
 }
