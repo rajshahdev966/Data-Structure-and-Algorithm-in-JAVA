@@ -168,10 +168,11 @@ public class patterns {
     static void pattern14() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        char chToPrint = 'A';
         for (int i = 1; i <= num; i++) {
+            char chToPrint = 'A';
             for (int j = 0; j < i; j++) {
-                System.out.print((char) chToPrint + j);
+                chToPrint += j;
+                System.out.print(chToPrint);
             }
             System.out.println();
         }
