@@ -124,6 +124,18 @@ public class patterns {
             }
             System.out.println();
     }
+    static void pattern12(){
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        boolean flag;
+        for (int i = 1; i <= num; i++) {
+            flag = !(i%2 == 0);
+            for (int j = 1; j <= i; j++) {
+                System.out.print(flag ? 1 : 0);
+                flag = !flag;
+            }
+            System.out.println();
+    }
 }
     
     public static void main(String[] args) {
