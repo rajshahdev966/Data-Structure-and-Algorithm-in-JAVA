@@ -330,10 +330,10 @@ public class patterns {
                     System.out.print(3);
                 }
                 if ((i >= 2 && i <= 4) && (j >= 2 && i <= 4)) {
-                    System.out.print(2);
+                    System.out.print(\b 2);
                 }
                 if ((i >= 3 && i <= 3) && (j >= 3 && i <= 3)) {
-                    System.out.print(1);
+                    System.out.print(\b \b 1);
                 }
                
 
