@@ -3,14 +3,26 @@
     "tasks": [
         {
             "label": "Run Java",
-            "type": "process",
-            "command": "cmd.exe",
+            "type": "shell",
+            "command": "javac",
             "args": [
-                "/c",
-                "javac \"%file%\" && java \"%~n1\" < input.txt > output.txt"
+                "${file}",
+                "&&",
+                "java",
+                "${fileBasenameNoExtension}",
+                "<",
+                "input.txt",
+                ">",
+                "output.txt"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${fileDirname}",
+                "shell": {
+                    "executable": "C:\\Windows\\System32\\cmd.exe"
+                }
+            },
+            "presentation": {
+                "reveal": "always"
             },
             "problemMatcher": "$javac"
         }
